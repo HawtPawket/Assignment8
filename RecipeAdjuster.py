@@ -24,8 +24,8 @@ try:
     else:
         print("Servings must be a positive number. ")
     adjustment = desiredServings / originalServings
-    rounded = round(adjustment, 2)
-    print(f"The adjustment factor is {rounded}.")
+    
+    print(f"The adjustment factor is {adjustment}.")
 except ValueError:
     print("Value must be a number. ")
 
